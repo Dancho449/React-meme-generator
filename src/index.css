@@ -73,11 +73,11 @@ body {
 }
 .meme {
   position: relative;
-  min-height: 350px;
+  min-height: 250px;
 }
 .meme-img {
   width: clamp(300px, 100%, 800px);
-  min-height: 350px;
+  min-height: 250px;
   border-radius: 3px;
   margin-top: 45px;
   margin-bottom: 50px;
@@ -120,4 +120,12 @@ body {
 }
 .bottom-footer > h3 {
   margin: 0;
+}
+@media (min-width: 800px) {
+  .meme {
+    min-height: 350px;
+  }
+  .meme-img {
+    min-height: 350px;
+  }
 }
