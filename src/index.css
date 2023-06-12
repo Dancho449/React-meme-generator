@@ -85,7 +85,7 @@ body {
 .meme-text {
   position: absolute;
   text-align: center;
-  left: 45%;
+  left: 50%;
   transform: translateX(-50%);
   margin: 15px 0;
   padding: 0 5px;
@@ -107,7 +107,7 @@ body {
   top: 10%;
 }
 .bottom {
-  bottom: 10%;
+  bottom: 12%;
 }
 .bottom-footer {
   position: fixed;
@@ -123,9 +123,12 @@ body {
 }
 @media (min-width: 800px) {
   .meme {
-    min-height: 350px;
+    min-height: 300px;
   }
   .meme-img {
-    min-height: 350px;
+    min-height: 300px;
+  }
+  .meme-text {
+    font-size: 1.5rem;
   }
 }
